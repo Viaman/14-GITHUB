@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C7642B101D026BEA00C6DE7E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C7642B0F1D026BEA00C6DE7E /* main.m */; };
+		C7642B131D026BEA00C6DE7E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7642B121D026BEA00C6DE7E /* AppDelegate.m */; };
+		C7642B161D026BEA00C6DE7E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7642B151D026BEA00C6DE7E /* ViewController.m */; };
+		C7642B191D026BEA00C6DE7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7642B171D026BEA00C6DE7E /* Main.storyboard */; };
+		C7642B1C1D026BEA00C6DE7E /* NewsWork___.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C7642B1A1D026BEA00C6DE7E /* NewsWork___.xcdatamodeld */; };
+		C7642B1E1D026BEA00C6DE7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7642B1D1D026BEA00C6DE7E /* Assets.xcassets */; };
+		C7642B211D026BEA00C6DE7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7642B1F1D026BEA00C6DE7E /* LaunchScreen.storyboard */; };
+		C7642B2C1D026BEA00C6DE7E /* NewsWork___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7642B2B1D026BEA00C6DE7E /* NewsWork___Tests.m */; };
+		C7642B371D026BEA00C6DE7E /* NewsWork___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7642B361D026BEA00C6DE7E /* NewsWork___UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C7642B281D026BEA00C6DE7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7642B031D026BE900C6DE7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7642B0A1D026BEA00C6DE7E;
+			remoteInfo = "NewsWork-张敏";
+		};
+		C7642B331D026BEA00C6DE7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7642B031D026BE900C6DE7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7642B0A1D026BEA00C6DE7E;
+			remoteInfo = "NewsWork-张敏";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C7642B0B1D026BEA00C6DE7E /* NewsWork-张敏.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NewsWork-张敏.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7642B0F1D026BEA00C6DE7E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C7642B111D026BEA00C6DE7E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C7642B121D026BEA00C6DE7E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C7642B141D026BEA00C6DE7E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C7642B151D026BEA00C6DE7E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C7642B181D026BEA00C6DE7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C7642B1B1D026BEA00C6DE7E /* NewsWork___.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "NewsWork___.xcdatamodel"; sourceTree = "<group>"; };
+		C7642B1D1D026BEA00C6DE7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C7642B201D026BEA00C6DE7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C7642B221D026BEA00C6DE7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7642B271D026BEA00C6DE7E /* NewsWork-张敏Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NewsWork-张敏Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7642B2B1D026BEA00C6DE7E /* NewsWork___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NewsWork___Tests.m"; sourceTree = "<group>"; };
+		C7642B2D1D026BEA00C6DE7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7642B321D026BEA00C6DE7E /* NewsWork-张敏UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NewsWork-张敏UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7642B361D026BEA00C6DE7E /* NewsWork___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NewsWork___UITests.m"; sourceTree = "<group>"; };
+		C7642B381D026BEA00C6DE7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7642B081D026BEA00C6DE7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7642B241D026BEA00C6DE7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7642B2F1D026BEA00C6DE7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C7642B021D026BE900C6DE7E = {
+			isa = PBXGroup;
+			children = (
+				C7642B0D1D026BEA00C6DE7E /* NewsWork-张敏 */,
+				C7642B2A1D026BEA00C6DE7E /* NewsWork-张敏Tests */,
+				C7642B351D026BEA00C6DE7E /* NewsWork-张敏UITests */,
+				C7642B0C1D026BEA00C6DE7E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C7642B0C1D026BEA00C6DE7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7642B0B1D026BEA00C6DE7E /* NewsWork-张敏.app */,
+				C7642B271D026BEA00C6DE7E /* NewsWork-张敏Tests.xctest */,
+				C7642B321D026BEA00C6DE7E /* NewsWork-张敏UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7642B0D1D026BEA00C6DE7E /* NewsWork-张敏 */ = {
+			isa = PBXGroup;
+			children = (
+				C7642B111D026BEA00C6DE7E /* AppDelegate.h */,
+				C7642B121D026BEA00C6DE7E /* AppDelegate.m */,
+				C7642B141D026BEA00C6DE7E /* ViewController.h */,
+				C7642B151D026BEA00C6DE7E /* ViewController.m */,
+				C7642B171D026BEA00C6DE7E /* Main.storyboard */,
+				C7642B1D1D026BEA00C6DE7E /* Assets.xcassets */,
+				C7642B1F1D026BEA00C6DE7E /* LaunchScreen.storyboard */,
+				C7642B221D026BEA00C6DE7E /* Info.plist */,
+				C7642B1A1D026BEA00C6DE7E /* NewsWork___.xcdatamodeld */,
+				C7642B0E1D026BEA00C6DE7E /* Supporting Files */,
+			);
+			path = "NewsWork-张敏";
+			sourceTree = "<group>";
+		};
+		C7642B0E1D026BEA00C6DE7E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C7642B0F1D026BEA00C6DE7E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C7642B2A1D026BEA00C6DE7E /* NewsWork-张敏Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C7642B2B1D026BEA00C6DE7E /* NewsWork___Tests.m */,
+				C7642B2D1D026BEA00C6DE7E /* Info.plist */,
+			);
+			path = "NewsWork-张敏Tests";
+			sourceTree = "<group>";
+		};
+		C7642B351D026BEA00C6DE7E /* NewsWork-张敏UITests */ = {
+			isa = PBXGroup;
+			children = (
+				C7642B361D026BEA00C6DE7E /* NewsWork___UITests.m */,
+				C7642B381D026BEA00C6DE7E /* Info.plist */,
+			);
+			path = "NewsWork-张敏UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7642B0A1D026BEA00C6DE7E /* NewsWork-张敏 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7642B3B1D026BEA00C6DE7E /* Build configuration list for PBXNativeTarget "NewsWork-张敏" */;
+			buildPhases = (
+				C7642B071D026BEA00C6DE7E /* Sources */,
+				C7642B081D026BEA00C6DE7E /* Frameworks */,
+				C7642B091D026BEA00C6DE7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NewsWork-张敏";
+			productName = "NewsWork-张敏";
+			productReference = C7642B0B1D026BEA00C6DE7E /* NewsWork-张敏.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C7642B261D026BEA00C6DE7E /* NewsWork-张敏Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7642B3E1D026BEA00C6DE7E /* Build configuration list for PBXNativeTarget "NewsWork-张敏Tests" */;
+			buildPhases = (
+				C7642B231D026BEA00C6DE7E /* Sources */,
+				C7642B241D026BEA00C6DE7E /* Frameworks */,
+				C7642B251D026BEA00C6DE7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7642B291D026BEA00C6DE7E /* PBXTargetDependency */,
+			);
+			name = "NewsWork-张敏Tests";
+			productName = "NewsWork-张敏Tests";
+			productReference = C7642B271D026BEA00C6DE7E /* NewsWork-张敏Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C7642B311D026BEA00C6DE7E /* NewsWork-张敏UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7642B411D026BEA00C6DE7E /* Build configuration list for PBXNativeTarget "NewsWork-张敏UITests" */;
+			buildPhases = (
+				C7642B2E1D026BEA00C6DE7E /* Sources */,
+				C7642B2F1D026BEA00C6DE7E /* Frameworks */,
+				C7642B301D026BEA00C6DE7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7642B341D026BEA00C6DE7E /* PBXTargetDependency */,
+			);
+			name = "NewsWork-张敏UITests";
+			productName = "NewsWork-张敏UITests";
+			productReference = C7642B321D026BEA00C6DE7E /* NewsWork-张敏UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7642B031D026BE900C6DE7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = via.man;
+				TargetAttributes = {
+					C7642B0A1D026BEA00C6DE7E = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					C7642B261D026BEA00C6DE7E = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = C7642B0A1D026BEA00C6DE7E;
+					};
+					C7642B311D026BEA00C6DE7E = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = C7642B0A1D026BEA00C6DE7E;
+					};
+				};
+			};
+			buildConfigurationList = C7642B061D026BE900C6DE7E /* Build configuration list for PBXProject "NewsWork-张敏" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C7642B021D026BE900C6DE7E;
+			productRefGroup = C7642B0C1D026BEA00C6DE7E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7642B0A1D026BEA00C6DE7E /* NewsWork-张敏 */,
+				C7642B261D026BEA00C6DE7E /* NewsWork-张敏Tests */,
+				C7642B311D026BEA00C6DE7E /* NewsWork-张敏UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7642B091D026BEA00C6DE7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7642B211D026BEA00C6DE7E /* LaunchScreen.storyboard in Resources */,
+				C7642B1E1D026BEA00C6DE7E /* Assets.xcassets in Resources */,
+				C7642B191D026BEA00C6DE7E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7642B251D026BEA00C6DE7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7642B301D026BEA00C6DE7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7642B071D026BEA00C6DE7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7642B161D026BEA00C6DE7E /* ViewController.m in Sources */,
+				C7642B1C1D026BEA00C6DE7E /* NewsWork___.xcdatamodeld in Sources */,
+				C7642B131D026BEA00C6DE7E /* AppDelegate.m in Sources */,
+				C7642B101D026BEA00C6DE7E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7642B231D026BEA00C6DE7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7642B2C1D026BEA00C6DE7E /* NewsWork___Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7642B2E1D026BEA00C6DE7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7642B371D026BEA00C6DE7E /* NewsWork___UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C7642B291D026BEA00C6DE7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7642B0A1D026BEA00C6DE7E /* NewsWork-张敏 */;
+			targetProxy = C7642B281D026BEA00C6DE7E /* PBXContainerItemProxy */;
+		};
+		C7642B341D026BEA00C6DE7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7642B0A1D026BEA00C6DE7E /* NewsWork-张敏 */;
+			targetProxy = C7642B331D026BEA00C6DE7E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C7642B171D026BEA00C6DE7E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7642B181D026BEA00C6DE7E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C7642B1F1D026BEA00C6DE7E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7642B201D026BEA00C6DE7E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C7642B391D026BEA00C6DE7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C7642B3A1D026BEA00C6DE7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C7642B3C1D026BEA00C6DE7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "NewsWork-张敏/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "via.NewsWork---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C7642B3D1D026BEA00C6DE7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "NewsWork-张敏/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "via.NewsWork---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C7642B3F1D026BEA00C6DE7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "NewsWork-张敏Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "via.NewsWork---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NewsWork-张敏.app/NewsWork-张敏";
+			};
+			name = Debug;
+		};
+		C7642B401D026BEA00C6DE7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "NewsWork-张敏Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "via.NewsWork---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NewsWork-张敏.app/NewsWork-张敏";
+			};
+			name = Release;
+		};
+		C7642B421D026BEA00C6DE7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "NewsWork-张敏UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "via.NewsWork---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "NewsWork-张敏";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C7642B431D026BEA00C6DE7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "NewsWork-张敏UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "via.NewsWork---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "NewsWork-张敏";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7642B061D026BE900C6DE7E /* Build configuration list for PBXProject "NewsWork-张敏" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7642B391D026BEA00C6DE7E /* Debug */,
+				C7642B3A1D026BEA00C6DE7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7642B3B1D026BEA00C6DE7E /* Build configuration list for PBXNativeTarget "NewsWork-张敏" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7642B3C1D026BEA00C6DE7E /* Debug */,
+				C7642B3D1D026BEA00C6DE7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C7642B3E1D026BEA00C6DE7E /* Build configuration list for PBXNativeTarget "NewsWork-张敏Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7642B3F1D026BEA00C6DE7E /* Debug */,
+				C7642B401D026BEA00C6DE7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C7642B411D026BEA00C6DE7E /* Build configuration list for PBXNativeTarget "NewsWork-张敏UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7642B421D026BEA00C6DE7E /* Debug */,
+				C7642B431D026BEA00C6DE7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C7642B1A1D026BEA00C6DE7E /* NewsWork___.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C7642B1B1D026BEA00C6DE7E /* NewsWork___.xcdatamodel */,
+			);
+			currentVersion = C7642B1B1D026BEA00C6DE7E /* NewsWork___.xcdatamodel */;
+			path = "NewsWork___.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C7642B031D026BE900C6DE7E /* Project object */;
+}
