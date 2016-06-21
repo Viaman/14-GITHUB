@@ -1,0 +1,27 @@
+//
+//  PrefixHeader.pch
+//  NewsWork-张敏
+//
+//  Created by dc009 on 16/6/6.
+//  Copyright © 2016年 via.man. All rights reserved.
+//
+
+///通知相关的地方
+#define GetNewsDataNotification @"获取新闻数据"
+#define GetBannerDataNotification @"获取轮播图数据"
+
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+#import "MJRefresh.h"
+#import "UIKit+AFNetworking.h"
+#import "NewsTableViewCell.h"
+#import "AFNetworking.h"
+#import "SDCycleScrollView.h"
+#import "MJExtension.h"
+
+#define POOT @"http://jxwm.gkmm.net:8989/news/"
+#define POST_getBanner [POOT stringByAppendingFormat:@"newsCategory/getBanner.do"]
+#define POST_getNewsByCategoryId [POOT stringByAppendingFormat:@"news/getNewsByCategoryId.do"]
+
+#endif /* PrefixHeader_pch */
