@@ -392,13 +392,7 @@
 			isa = PBXGroup;
 			children = (
 				C79CD4FF1D07B78B004C987E /* 首页 */,
-				C7C0818B1D1137330088F1D6 /* YSLContainerViewController */,
-				C7B3E11D1D06756000330DB2 /* MJRefresh */,
-				C7C08A3F1D053E0700CE8308 /* SDWebImage */,
-				C79CD5061D08179F004C987E /* MJExtension */,
-				C7642B491D026D1000C6DE7E /* AFNetworking */,
-				C7C08A281D053E0300CE8308 /* SDCycleScrollView */,
-				C7642BC41D026D4000C6DE7E /* UIKit+AFNetworking */,
+				C7CB1C2A1D1A58E70097E947 /* 类库 */,
 				C7642B0D1D026BEA00C6DE7E /* NewsWork-张敏 */,
 				C7642B2A1D026BEA00C6DE7E /* NewsWork-张敏Tests */,
 				C7642B351D026BEA00C6DE7E /* NewsWork-张敏UITests */,
@@ -475,7 +469,8 @@
 				C7642B551D026D1000C6DE7E /* AFURLSessionManager.h */,
 				C7642B561D026D1000C6DE7E /* AFURLSessionManager.m */,
 			);
-			path = AFNetworking;
+			name = AFNetworking;
+			path = ../AFNetworking;
 			sourceTree = "<group>";
 		};
 		C7642BC41D026D4000C6DE7E /* UIKit+AFNetworking */ = {
@@ -502,7 +497,8 @@
 				C7642BD71D026D4000C6DE7E /* UIWebView+AFNetworking.h */,
 				C7642BD81D026D4000C6DE7E /* UIWebView+AFNetworking.m */,
 			);
-			path = "UIKit+AFNetworking";
+			name = "UIKit+AFNetworking";
+			path = "../UIKit+AFNetworking";
 			sourceTree = "<group>";
 		};
 		C79CD4FF1D07B78B004C987E /* 首页 */ = {
@@ -578,7 +574,8 @@
 				C79CD51B1D08179F004C987E /* NSString+MJExtension.h */,
 				C79CD51C1D08179F004C987E /* NSString+MJExtension.m */,
 			);
-			path = MJExtension;
+			name = MJExtension;
+			path = ../MJExtension;
 			sourceTree = "<group>";
 		};
 		C7B3E11D1D06756000330DB2 /* MJRefresh */ = {
@@ -597,7 +594,8 @@
 				C7B3E1481D06756000330DB2 /* UIView+MJExtension.h */,
 				C7B3E1491D06756000330DB2 /* UIView+MJExtension.m */,
 			);
-			path = MJRefresh;
+			name = MJRefresh;
+			path = ../MJRefresh;
 			sourceTree = "<group>";
 		};
 		C7B3E11E1D06756000330DB2 /* Base */ = {
@@ -682,7 +680,8 @@
 				C7C0818E1D1137330088F1D6 /* YSLScrollMenuView.h */,
 				C7C0818F1D1137330088F1D6 /* YSLScrollMenuView.m */,
 			);
-			path = YSLContainerViewController;
+			name = YSLContainerViewController;
+			path = ../YSLContainerViewController;
 			sourceTree = "<group>";
 		};
 		C7C08A281D053E0300CE8308 /* SDCycleScrollView */ = {
@@ -696,7 +695,8 @@
 				C7C08A361D053E0300CE8308 /* UIView+SDExtension.h */,
 				C7C08A371D053E0300CE8308 /* UIView+SDExtension.m */,
 			);
-			path = SDCycleScrollView;
+			name = SDCycleScrollView;
+			path = ../SDCycleScrollView;
 			sourceTree = "<group>";
 		};
 		C7C08A291D053E0300CE8308 /* PageControl */ = {
@@ -751,6 +751,21 @@
 				C7C08A5F1D053E0700CE8308 /* UIView+WebCacheOperation.h */,
 				C7C08A601D053E0700CE8308 /* UIView+WebCacheOperation.m */,
 			);
+			name = SDWebImage;
+			sourceTree = "<group>";
+		};
+		C7CB1C2A1D1A58E70097E947 /* 类库 */ = {
+			isa = PBXGroup;
+			children = (
+				C7C08A3F1D053E0700CE8308 /* SDWebImage */,
+				C7642B491D026D1000C6DE7E /* AFNetworking */,
+				C7642BC41D026D4000C6DE7E /* UIKit+AFNetworking */,
+				C7C0818B1D1137330088F1D6 /* YSLContainerViewController */,
+				C7B3E11D1D06756000330DB2 /* MJRefresh */,
+				C79CD5061D08179F004C987E /* MJExtension */,
+				C7C08A281D053E0300CE8308 /* SDCycleScrollView */,
+			);
+			name = "类库";
 			path = SDWebImage;
 			sourceTree = "<group>";
 		};
