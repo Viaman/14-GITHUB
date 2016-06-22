@@ -40,6 +40,13 @@
     float statusHeight = [[UIApplication sharedApplication]statusBarFrame].size.height;
     float navigationHeight =self.navigationController.navigationBar.frame.size.height;
     YSLContainerViewController * conntainerVC =  [[YSLContainerViewController alloc]initWithControllers:array topBarHeight:statusHeight+navigationHeight  parentViewController:self];
+    //menuBackGroudColor->背景颜色
+    //menuIndicatorColor->横线颜色
+    //menuItemSelectedTitleColor->选中字体颜色
+    //menuItemTitleColor->未选中字体颜色
+    conntainerVC.menuItemSelectedTitleColor= [UIColor redColor];
+    conntainerVC.menuIndicatorColor= [UIColor redColor];
+    conntainerVC.menuItemTitleColor= [UIColor blackColor];
     [self.view addSubview:conntainerVC.view];
     
 }

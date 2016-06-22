@@ -40,9 +40,6 @@
     self.newsTableView.rowHeight = 77;//每一行都是固定高度
     
     [Banner getImageDataBanner];
-    
-    
-    
     //添加通知，当获取到数据是进行提示
     [[NSNotificationCenter defaultCenter]
      addObserver:self
@@ -148,8 +145,14 @@
     
     return _cycleScrollView;
 }
+#pragma mark 选中某一行
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-    DetailViewController *dvc = [[DetailViewController alloc]init];
+    
+    
+    
+    
+    UIStoryboard *stroyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    DetailViewController * dvc = [stroyboard instantiateViewControllerWithIdentifier:@"detail"];
     
     [self.navigationController pushViewController:dvc animated:YES];
 }

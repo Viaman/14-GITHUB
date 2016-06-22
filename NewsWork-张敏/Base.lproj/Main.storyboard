@@ -5,24 +5,6 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <scenes>
-        <!--要闻-->
-        <scene sceneID="Rik-mY-kSo">
-            <objects>
-                <navigationController id="YHw-RQ-5n2" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="要闻" image="房子" id="YT9-Uy-2VM"/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="kQ8-FP-6YQ">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <connections>
-                        <segue destination="5MQ-NQ-NMe" kind="relationship" relationship="rootViewController" id="3m8-i8-533"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="rDE-HU-kPh" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-1034.5" y="974.5"/>
-        </scene>
         <!--文明嘉兴-->
         <scene sceneID="e7v-9O-Imc">
             <objects>
@@ -36,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="5tb-85-2Cq"/>
+                    <tabBarItem key="tabBarItem" title="要闻" image="房子" id="5tb-85-2Cq"/>
                     <navigationItem key="navigationItem" title="文明嘉兴" id="Jrh-6I-Dk2"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
@@ -134,7 +116,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="924.5" y="147.5"/>
+            <point key="canvasLocation" x="-557.5" y="1751.5"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="5XJ-l8-R2y">
@@ -147,7 +129,7 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
-                        <segue destination="YHw-RQ-5n2" kind="relationship" relationship="viewControllers" id="Apw-rl-A9N"/>
+                        <segue destination="5MQ-NQ-NMe" kind="relationship" relationship="viewControllers" id="4Jq-1F-2mT"/>
                         <segue destination="fZm-Yp-kSx" kind="relationship" relationship="viewControllers" id="f8m-N3-kbL"/>
                         <segue destination="iIg-9f-OXg" kind="relationship" relationship="viewControllers" id="9yV-We-a9P"/>
                         <segue destination="i0I-ah-YqR" kind="relationship" relationship="viewControllers" id="hvU-AT-AFx"/>
@@ -160,7 +142,7 @@
         <!--Detail View Controller-->
         <scene sceneID="tBZ-qo-0IV">
             <objects>
-                <viewController id="zXT-RW-e9r" customClass="DetailViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="detail" id="zXT-RW-e9r" customClass="DetailViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="JbR-1D-3zA"/>
                         <viewControllerLayoutGuide type="bottom" id="Pkz-1I-VZF"/>
@@ -168,13 +150,48 @@
                     <view key="view" contentMode="scaleToFill" id="Zmu-xJ-qxz">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="标题" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ecc-h8-hfl">
+                                <rect key="frame" x="10" y="30" width="355" height="50"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="日期" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wDB-4u-EHs">
+                                <rect key="frame" x="10" y="97" width="150" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="来源" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hyR-vS-dLl">
+                                <rect key="frame" x="247" y="97" width="118" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nAM-41-fcP">
+                                <rect key="frame" x="10" y="139" width="355" height="528"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
+                            </webView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Ecc-h8-hfl" firstAttribute="top" secondItem="JbR-1D-3zA" secondAttribute="bottom" constant="10" id="1Ea-ak-Q7T"/>
+                            <constraint firstItem="Ecc-h8-hfl" firstAttribute="leading" secondItem="Zmu-xJ-qxz" secondAttribute="leading" constant="10" id="2fk-BR-jzQ"/>
+                            <constraint firstAttribute="trailing" secondItem="Ecc-h8-hfl" secondAttribute="trailing" constant="10" id="f0u-WJ-1Xq"/>
+                        </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="detailContent" destination="nAM-41-fcP" id="y8z-BP-Akk"/>
+                        <outlet property="detailDate" destination="wDB-4u-EHs" id="TwR-Hf-MqO"/>
+                        <outlet property="detailHead" destination="Ecc-h8-hfl" id="47y-U1-xyU"/>
+                        <outlet property="detailSource" destination="hyR-vS-dLl" id="YfW-64-n4u"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sdK-KK-d7h" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1466.5" y="147.5"/>
+            <point key="canvasLocation" x="-557.5" y="2493.5"/>
         </scene>
     </scenes>
     <resources>
