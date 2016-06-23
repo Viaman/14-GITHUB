@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4676B66554FA4D488977726C /* libPods-NewsWork-张敏.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C81D63E642D622DD88C4E6B /* libPods-NewsWork-张敏.a */; };
+		60215391BA3CA769E308F41A /* libPods-NewsWork-张敏UITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2765AEC3FCB66054D70C269A /* libPods-NewsWork-张敏UITests.a */; };
+		820AC7F7BFAACEE65DB3F634 /* libPods-NewsWork-张敏Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 93020806CE64090B81636830 /* libPods-NewsWork-张敏Tests.a */; };
 		C7068C031D06C9E30053C99B /* 1.tiff in Resources */ = {isa = PBXBuildFile; fileRef = C7068BF11D06C9E30053C99B /* 1.tiff */; };
 		C7068C041D06C9E30053C99B /* 2.tiff in Resources */ = {isa = PBXBuildFile; fileRef = C7068BF21D06C9E30053C99B /* 2.tiff */; };
 		C7068C051D06C9E30053C99B /* 3.tiff in Resources */ = {isa = PBXBuildFile; fileRef = C7068BF31D06C9E30053C99B /* 3.tiff */; };
@@ -27,6 +30,10 @@
 		C7068C2B1D06CE550053C99B /* 07.tiff in Resources */ = {isa = PBXBuildFile; fileRef = C7068C1F1D06CE550053C99B /* 07.tiff */; };
 		C7068C2C1D06CE550053C99B /* 08.tiff in Resources */ = {isa = PBXBuildFile; fileRef = C7068C201D06CE550053C99B /* 08.tiff */; };
 		C7068C2D1D06CE550053C99B /* 09.tiff in Resources */ = {isa = PBXBuildFile; fileRef = C7068C211D06CE550053C99B /* 09.tiff */; };
+		C7576ED31D1B66360089988B /* LinkDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7576ED21D1B66360089988B /* LinkDetailViewController.m */; };
+		C7576ED71D1B7B7A0089988B /* NotifyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C7576ED51D1B7B7A0089988B /* NotifyTableViewCell.m */; };
+		C7576ED81D1B7B7A0089988B /* NotifyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7576ED61D1B7B7A0089988B /* NotifyTableViewCell.xib */; };
+		C7576EDC1D1B8D790089988B /* Notify.m in Sources */ = {isa = PBXBuildFile; fileRef = C7576EDB1D1B8D790089988B /* Notify.m */; };
 		C7642B101D026BEA00C6DE7E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C7642B0F1D026BEA00C6DE7E /* main.m */; };
 		C7642B131D026BEA00C6DE7E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7642B121D026BEA00C6DE7E /* AppDelegate.m */; };
 		C7642B161D026BEA00C6DE7E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7642B151D026BEA00C6DE7E /* ViewController.m */; };
@@ -66,6 +73,9 @@
 		C79CD5261D08179F004C987E /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = C79CD51A1D08179F004C987E /* NSObject+MJProperty.m */; };
 		C79CD5271D08179F004C987E /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = C79CD51C1D08179F004C987E /* NSString+MJExtension.m */; };
 		C79CD52A1D0837B2004C987E /* Banner.m in Sources */ = {isa = PBXBuildFile; fileRef = C79CD5291D0837B2004C987E /* Banner.m */; };
+		C79E0FB11D1A712B00CF0795 /* CivilizationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C79E0FB01D1A712B00CF0795 /* CivilizationViewController.m */; };
+		C79E0FB71D1AA4A800CF0795 /* LinkCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C79E0FB51D1AA4A800CF0795 /* LinkCollectionViewCell.m */; };
+		C79E0FB81D1AA4A800CF0795 /* LinkCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C79E0FB61D1AA4A800CF0795 /* LinkCollectionViewCell.xib */; };
 		C7B3E14A1D06756000330DB2 /* MJRefreshAutoFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B3E1201D06756000330DB2 /* MJRefreshAutoFooter.m */; };
 		C7B3E14B1D06756000330DB2 /* MJRefreshBackFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B3E1221D06756000330DB2 /* MJRefreshBackFooter.m */; };
 		C7B3E14C1D06756000330DB2 /* MJRefreshComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B3E1241D06756000330DB2 /* MJRefreshComponent.m */; };
@@ -112,6 +122,10 @@
 		C7C08A6E1D053E0700CE8308 /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C08A5C1D053E0700CE8308 /* UIImageView+HighlightedWebCache.m */; };
 		C7C08A6F1D053E0700CE8308 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C08A5E1D053E0700CE8308 /* UIImageView+WebCache.m */; };
 		C7C08A701D053E0700CE8308 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C08A601D053E0700CE8308 /* UIView+WebCacheOperation.m */; };
+		C7CB1C2D1D1A6BE30097E947 /* QRcodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7CB1C2C1D1A6BE30097E947 /* QRcodeViewController.m */; };
+		C7CB1C301D1A6C490097E947 /* NotifyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7CB1C2F1D1A6C480097E947 /* NotifyViewController.m */; };
+		C7CB1C331D1A6C720097E947 /* LinkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7CB1C321D1A6C720097E947 /* LinkViewController.m */; };
+		C7CB1C361D1A6CBE0097E947 /* ShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7CB1C351D1A6CBE0097E947 /* ShareViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -132,6 +146,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0EB03D3C6559091700917EFF /* Pods-NewsWork-张敏UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsWork-张敏UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NewsWork-张敏UITests/Pods-NewsWork-张敏UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2765AEC3FCB66054D70C269A /* libPods-NewsWork-张敏UITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NewsWork-张敏UITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5102F3E9A183CDD636192547 /* Pods-NewsWork-张敏.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsWork-张敏.release.xcconfig"; path = "Pods/Target Support Files/Pods-NewsWork-张敏/Pods-NewsWork-张敏.release.xcconfig"; sourceTree = "<group>"; };
+		59F041C50F592FB276DD87A9 /* Pods-NewsWork-张敏.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsWork-张敏.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NewsWork-张敏/Pods-NewsWork-张敏.debug.xcconfig"; sourceTree = "<group>"; };
+		7C81D63E642D622DD88C4E6B /* libPods-NewsWork-张敏.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NewsWork-张敏.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93020806CE64090B81636830 /* libPods-NewsWork-张敏Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NewsWork-张敏Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7068BF11D06C9E30053C99B /* 1.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = 1.tiff; sourceTree = "<group>"; };
 		C7068BF21D06C9E30053C99B /* 2.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = 2.tiff; sourceTree = "<group>"; };
 		C7068BF31D06C9E30053C99B /* 3.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = 3.tiff; sourceTree = "<group>"; };
@@ -152,6 +172,13 @@
 		C7068C1F1D06CE550053C99B /* 07.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = 07.tiff; sourceTree = "<group>"; };
 		C7068C201D06CE550053C99B /* 08.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = 08.tiff; sourceTree = "<group>"; };
 		C7068C211D06CE550053C99B /* 09.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = 09.tiff; sourceTree = "<group>"; };
+		C7576ED11D1B66360089988B /* LinkDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkDetailViewController.h; sourceTree = "<group>"; };
+		C7576ED21D1B66360089988B /* LinkDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkDetailViewController.m; sourceTree = "<group>"; };
+		C7576ED41D1B7B7A0089988B /* NotifyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotifyTableViewCell.h; sourceTree = "<group>"; };
+		C7576ED51D1B7B7A0089988B /* NotifyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotifyTableViewCell.m; sourceTree = "<group>"; };
+		C7576ED61D1B7B7A0089988B /* NotifyTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NotifyTableViewCell.xib; sourceTree = "<group>"; };
+		C7576EDA1D1B8D790089988B /* Notify.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Notify.h; sourceTree = "<group>"; };
+		C7576EDB1D1B8D790089988B /* Notify.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Notify.m; sourceTree = "<group>"; };
 		C7642B0B1D026BEA00C6DE7E /* NewsWork-张敏.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NewsWork-张敏.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7642B0F1D026BEA00C6DE7E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C7642B111D026BEA00C6DE7E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -231,6 +258,11 @@
 		C79CD51C1D08179F004C987E /* NSString+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MJExtension.m"; sourceTree = "<group>"; };
 		C79CD5281D0837B2004C987E /* Banner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Banner.h; sourceTree = "<group>"; };
 		C79CD5291D0837B2004C987E /* Banner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Banner.m; sourceTree = "<group>"; };
+		C79E0FAF1D1A712B00CF0795 /* CivilizationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CivilizationViewController.h; sourceTree = "<group>"; };
+		C79E0FB01D1A712B00CF0795 /* CivilizationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CivilizationViewController.m; sourceTree = "<group>"; };
+		C79E0FB41D1AA4A800CF0795 /* LinkCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkCollectionViewCell.h; sourceTree = "<group>"; };
+		C79E0FB51D1AA4A800CF0795 /* LinkCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkCollectionViewCell.m; sourceTree = "<group>"; };
+		C79E0FB61D1AA4A800CF0795 /* LinkCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LinkCollectionViewCell.xib; sourceTree = "<group>"; };
 		C7B3E11F1D06756000330DB2 /* MJRefreshAutoFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshAutoFooter.h; sourceTree = "<group>"; };
 		C7B3E1201D06756000330DB2 /* MJRefreshAutoFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshAutoFooter.m; sourceTree = "<group>"; };
 		C7B3E1211D06756000330DB2 /* MJRefreshBackFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshBackFooter.h; sourceTree = "<group>"; };
@@ -325,6 +357,17 @@
 		C7C08A5F1D053E0700CE8308 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
 		C7C08A601D053E0700CE8308 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
 		C7C08A721D0553AB00CE8308 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		C7CB1C2B1D1A6BE30097E947 /* QRcodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRcodeViewController.h; sourceTree = "<group>"; };
+		C7CB1C2C1D1A6BE30097E947 /* QRcodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRcodeViewController.m; sourceTree = "<group>"; };
+		C7CB1C2E1D1A6C480097E947 /* NotifyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotifyViewController.h; sourceTree = "<group>"; };
+		C7CB1C2F1D1A6C480097E947 /* NotifyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotifyViewController.m; sourceTree = "<group>"; };
+		C7CB1C311D1A6C720097E947 /* LinkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkViewController.h; sourceTree = "<group>"; };
+		C7CB1C321D1A6C720097E947 /* LinkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkViewController.m; sourceTree = "<group>"; };
+		C7CB1C341D1A6CBE0097E947 /* ShareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareViewController.h; sourceTree = "<group>"; };
+		C7CB1C351D1A6CBE0097E947 /* ShareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareViewController.m; sourceTree = "<group>"; };
+		CEAF57AA6AE976D6D640C870 /* Pods-NewsWork-张敏UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsWork-张敏UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NewsWork-张敏UITests/Pods-NewsWork-张敏UITests.release.xcconfig"; sourceTree = "<group>"; };
+		E938BBDE8F8D5069912FBE46 /* Pods-NewsWork-张敏Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsWork-张敏Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NewsWork-张敏Tests/Pods-NewsWork-张敏Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F3986385C3AEB9F91F23F221 /* Pods-NewsWork-张敏Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsWork-张敏Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NewsWork-张敏Tests/Pods-NewsWork-张敏Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -332,6 +375,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4676B66554FA4D488977726C /* libPods-NewsWork-张敏.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +383,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				820AC7F7BFAACEE65DB3F634 /* libPods-NewsWork-张敏Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,12 +391,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60215391BA3CA769E308F41A /* libPods-NewsWork-张敏UITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		29A9D2BEF61442337EA256C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C81D63E642D622DD88C4E6B /* libPods-NewsWork-张敏.a */,
+				93020806CE64090B81636830 /* libPods-NewsWork-张敏Tests.a */,
+				2765AEC3FCB66054D70C269A /* libPods-NewsWork-张敏UITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4F0B6335A64539FCA975FFC7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				59F041C50F592FB276DD87A9 /* Pods-NewsWork-张敏.debug.xcconfig */,
+				5102F3E9A183CDD636192547 /* Pods-NewsWork-张敏.release.xcconfig */,
+				F3986385C3AEB9F91F23F221 /* Pods-NewsWork-张敏Tests.debug.xcconfig */,
+				E938BBDE8F8D5069912FBE46 /* Pods-NewsWork-张敏Tests.release.xcconfig */,
+				0EB03D3C6559091700917EFF /* Pods-NewsWork-张敏UITests.debug.xcconfig */,
+				CEAF57AA6AE976D6D640C870 /* Pods-NewsWork-张敏UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C7068BF01D06C9E30053C99B /* 下拉图片 */ = {
 			isa = PBXGroup;
 			children = (
@@ -388,15 +457,29 @@
 			path = "../上拉图片";
 			sourceTree = "<group>";
 		};
+		C7576ED91D1B8D430089988B /* models */ = {
+			isa = PBXGroup;
+			children = (
+				C7576EDA1D1B8D790089988B /* Notify.h */,
+				C7576EDB1D1B8D790089988B /* Notify.m */,
+			);
+			name = models;
+			sourceTree = "<group>";
+		};
 		C7642B021D026BE900C6DE7E = {
 			isa = PBXGroup;
 			children = (
 				C79CD4FF1D07B78B004C987E /* 首页 */,
+				C7CB1C381D1A6CE80097E947 /* 微文明 */,
+				C7CB1C391D1A6CF30097E947 /* 公益 */,
+				C7CB1C371D1A6CCE0097E947 /* 文明办 */,
 				C7CB1C2A1D1A58E70097E947 /* 类库 */,
 				C7642B0D1D026BEA00C6DE7E /* NewsWork-张敏 */,
 				C7642B2A1D026BEA00C6DE7E /* NewsWork-张敏Tests */,
 				C7642B351D026BEA00C6DE7E /* NewsWork-张敏UITests */,
 				C7642B0C1D026BEA00C6DE7E /* Products */,
+				4F0B6335A64539FCA975FFC7 /* Pods */,
+				29A9D2BEF61442337EA256C5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -576,6 +659,26 @@
 			);
 			name = MJExtension;
 			path = ../MJExtension;
+			sourceTree = "<group>";
+		};
+		C79E0FB21D1A714D00CF0795 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		C79E0FB31D1AA45600CF0795 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				C79E0FB41D1AA4A800CF0795 /* LinkCollectionViewCell.h */,
+				C79E0FB51D1AA4A800CF0795 /* LinkCollectionViewCell.m */,
+				C79E0FB61D1AA4A800CF0795 /* LinkCollectionViewCell.xib */,
+				C7576ED41D1B7B7A0089988B /* NotifyTableViewCell.h */,
+				C7576ED51D1B7B7A0089988B /* NotifyTableViewCell.m */,
+				C7576ED61D1B7B7A0089988B /* NotifyTableViewCell.xib */,
+			);
+			name = view;
 			sourceTree = "<group>";
 		};
 		C7B3E11D1D06756000330DB2 /* MJRefresh */ = {
@@ -769,6 +872,53 @@
 			path = SDWebImage;
 			sourceTree = "<group>";
 		};
+		C7CB1C371D1A6CCE0097E947 /* 文明办 */ = {
+			isa = PBXGroup;
+			children = (
+				C7576ED91D1B8D430089988B /* models */,
+				C79E0FB31D1AA45600CF0795 /* view */,
+				C7CB1C3A1D1A6D180097E947 /* Controller */,
+			);
+			name = "文明办";
+			path = MJRefresh;
+			sourceTree = "<group>";
+		};
+		C7CB1C381D1A6CE80097E947 /* 微文明 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "微文明";
+			path = MJRefresh;
+			sourceTree = "<group>";
+		};
+		C7CB1C391D1A6CF30097E947 /* 公益 */ = {
+			isa = PBXGroup;
+			children = (
+				C79E0FB21D1A714D00CF0795 /* Controller */,
+			);
+			name = "公益";
+			path = MJRefresh;
+			sourceTree = "<group>";
+		};
+		C7CB1C3A1D1A6D180097E947 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C79E0FAF1D1A712B00CF0795 /* CivilizationViewController.h */,
+				C79E0FB01D1A712B00CF0795 /* CivilizationViewController.m */,
+				C7CB1C2B1D1A6BE30097E947 /* QRcodeViewController.h */,
+				C7CB1C2C1D1A6BE30097E947 /* QRcodeViewController.m */,
+				C7CB1C2E1D1A6C480097E947 /* NotifyViewController.h */,
+				C7CB1C2F1D1A6C480097E947 /* NotifyViewController.m */,
+				C7CB1C311D1A6C720097E947 /* LinkViewController.h */,
+				C7CB1C321D1A6C720097E947 /* LinkViewController.m */,
+				C7576ED11D1B66360089988B /* LinkDetailViewController.h */,
+				C7576ED21D1B66360089988B /* LinkDetailViewController.m */,
+				C7CB1C341D1A6CBE0097E947 /* ShareViewController.h */,
+				C7CB1C351D1A6CBE0097E947 /* ShareViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -776,9 +926,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C7642B3B1D026BEA00C6DE7E /* Build configuration list for PBXNativeTarget "NewsWork-张敏" */;
 			buildPhases = (
+				4C902482F83FB8DE30EF6604 /* [CP] Check Pods Manifest.lock */,
 				C7642B071D026BEA00C6DE7E /* Sources */,
 				C7642B081D026BEA00C6DE7E /* Frameworks */,
 				C7642B091D026BEA00C6DE7E /* Resources */,
+				AD6D8BA2F01FCDB697F259C2 /* [CP] Embed Pods Frameworks */,
+				B1BD61137E99DD6F31693928 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -793,9 +946,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C7642B3E1D026BEA00C6DE7E /* Build configuration list for PBXNativeTarget "NewsWork-张敏Tests" */;
 			buildPhases = (
+				D6C4521B51D8D30D988B5BB3 /* [CP] Check Pods Manifest.lock */,
 				C7642B231D026BEA00C6DE7E /* Sources */,
 				C7642B241D026BEA00C6DE7E /* Frameworks */,
 				C7642B251D026BEA00C6DE7E /* Resources */,
+				A666A8ADA5A6ED937ABB297D /* [CP] Embed Pods Frameworks */,
+				CAF31633E29B602352397AD8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -811,9 +967,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C7642B411D026BEA00C6DE7E /* Build configuration list for PBXNativeTarget "NewsWork-张敏UITests" */;
 			buildPhases = (
+				5FC3A3BD8C8BA74102131FE6 /* [CP] Check Pods Manifest.lock */,
 				C7642B2E1D026BEA00C6DE7E /* Sources */,
 				C7642B2F1D026BEA00C6DE7E /* Frameworks */,
 				C7642B301D026BEA00C6DE7E /* Resources */,
+				BC17EE4E9EBCDE4B51FA9B9A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -854,6 +1012,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = C7642B021D026BE900C6DE7E;
 			productRefGroup = C7642B0C1D026BEA00C6DE7E /* Products */;
@@ -892,12 +1051,14 @@
 				C7068C071D06C9E30053C99B /* 5.tiff in Resources */,
 				C7068C281D06CE550053C99B /* 04.tiff in Resources */,
 				C7068C2A1D06CE550053C99B /* 06.tiff in Resources */,
+				C7576ED81D1B7B7A0089988B /* NotifyTableViewCell.xib in Resources */,
 				C7068C271D06CE550053C99B /* 03.tiff in Resources */,
 				C7068C091D06C9E30053C99B /* 7.tiff in Resources */,
 				C7068C221D06CE550053C99B /* 01.tiff in Resources */,
 				C7642B191D026BEA00C6DE7E /* Main.storyboard in Resources */,
 				C7068C2B1D06CE550053C99B /* 07.tiff in Resources */,
 				C7068C041D06C9E30053C99B /* 2.tiff in Resources */,
+				C79E0FB81D1AA4A800CF0795 /* LinkCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -916,6 +1077,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4C902482F83FB8DE30EF6604 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5FC3A3BD8C8BA74102131FE6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A666A8ADA5A6ED937ABB297D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NewsWork-张敏Tests/Pods-NewsWork-张敏Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD6D8BA2F01FCDB697F259C2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NewsWork-张敏/Pods-NewsWork-张敏-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1BD61137E99DD6F31693928 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NewsWork-张敏/Pods-NewsWork-张敏-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC17EE4E9EBCDE4B51FA9B9A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NewsWork-张敏UITests/Pods-NewsWork-张敏UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CAF31633E29B602352397AD8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NewsWork-张敏Tests/Pods-NewsWork-张敏Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6C4521B51D8D30D988B5BB3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C7642B071D026BEA00C6DE7E /* Sources */ = {
@@ -955,6 +1239,7 @@
 				C7642BDC1D026D4000C6DE7E /* UIActivityIndicatorView+AFNetworking.m in Sources */,
 				C7B3E1521D06756100330DB2 /* MJRefreshBackGifFooter.m in Sources */,
 				C7C08A391D053E0300CE8308 /* TAAnimatedDotView.m in Sources */,
+				C7576ED31D1B66360089988B /* LinkDetailViewController.m in Sources */,
 				C7C08A6A1D053E0700CE8308 /* UIButton+WebCache.m in Sources */,
 				C7C08A6B1D053E0700CE8308 /* UIImage+GIF.m in Sources */,
 				C7C08A3A1D053E0300CE8308 /* TADotView.m in Sources */,
@@ -967,6 +1252,7 @@
 				C7C08A3D1D053E0300CE8308 /* SDCycleScrollView.m in Sources */,
 				C79CD5251D08179F004C987E /* NSObject+MJKeyValue.m in Sources */,
 				C7B3E1531D06756100330DB2 /* MJRefreshBackNormalFooter.m in Sources */,
+				C79E0FB71D1AA4A800CF0795 /* LinkCollectionViewCell.m in Sources */,
 				C79CD51E1D08179F004C987E /* MJExtensionConst.m in Sources */,
 				C7B3E15A1D06756100330DB2 /* UIScrollView+MJExtension.m in Sources */,
 				C79CD5241D08179F004C987E /* NSObject+MJCoding.m in Sources */,
@@ -975,6 +1261,7 @@
 				C7C081901D1137330088F1D6 /* YSLContainerViewController.m in Sources */,
 				C7C08A681D053E0700CE8308 /* SDWebImageManager.m in Sources */,
 				C79CD5201D08179F004C987E /* MJProperty.m in Sources */,
+				C79E0FB11D1A712B00CF0795 /* CivilizationViewController.m in Sources */,
 				C7C08A6D1D053E0700CE8308 /* UIImage+WebP.m in Sources */,
 				C7C08A3C1D053E0300CE8308 /* SDCollectionViewCell.m in Sources */,
 				C7642B921D026D1000C6DE7E /* AFNetworkReachabilityManager.m in Sources */,
@@ -982,22 +1269,28 @@
 				C7B3E1511D06756000330DB2 /* MJRefreshAutoStateFooter.m in Sources */,
 				C7B3E14B1D06756000330DB2 /* MJRefreshBackFooter.m in Sources */,
 				C7642B911D026D1000C6DE7E /* AFHTTPSessionManager.m in Sources */,
+				C7CB1C331D1A6C720097E947 /* LinkViewController.m in Sources */,
 				C7C08A6F1D053E0700CE8308 /* UIImageView+WebCache.m in Sources */,
 				C7C08A661D053E0700CE8308 /* SDWebImageDownloader.m in Sources */,
 				C7C081941D1142020088F1D6 /* DetailViewController.m in Sources */,
 				C7B3E1551D06756100330DB2 /* MJRefreshGifHeader.m in Sources */,
 				C7642B131D026BEA00C6DE7E /* AppDelegate.m in Sources */,
+				C7576ED71D1B7B7A0089988B /* NotifyTableViewCell.m in Sources */,
 				C7C08A611D053E0700CE8308 /* MKAnnotationView+WebCache.m in Sources */,
 				C79CD5231D08179F004C987E /* NSObject+MJClass.m in Sources */,
 				C7B3E1501D06756000330DB2 /* MJRefreshAutoNormalFooter.m in Sources */,
 				C7642BDB1D026D4000C6DE7E /* AFNetworkActivityIndicatorManager.m in Sources */,
 				C7C08A651D053E0700CE8308 /* SDWebImageDecoder.m in Sources */,
+				C7CB1C2D1D1A6BE30097E947 /* QRcodeViewController.m in Sources */,
 				C7C08A641D053E0700CE8308 /* SDWebImageCompat.m in Sources */,
 				C7B3E14E1D06756000330DB2 /* MJRefreshHeader.m in Sources */,
+				C7CB1C301D1A6C490097E947 /* NotifyViewController.m in Sources */,
 				C7C08A6E1D053E0700CE8308 /* UIImageView+HighlightedWebCache.m in Sources */,
 				C7C08A621D053E0700CE8308 /* NSData+ImageContentType.m in Sources */,
 				C7642B101D026BEA00C6DE7E /* main.m in Sources */,
 				C7B3E14D1D06756000330DB2 /* MJRefreshFooter.m in Sources */,
+				C7CB1C361D1A6CBE0097E947 /* ShareViewController.m in Sources */,
+				C7576EDC1D1B8D790089988B /* Notify.m in Sources */,
 				C79CD5221D08179F004C987E /* MJPropertyType.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1135,11 +1428,25 @@
 		};
 		C7642B3C1D026BEA00C6DE7E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59F041C50F592FB276DD87A9 /* Pods-NewsWork-张敏.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ShareSDK/Connection",
+					"$(PROJECT_DIR)/ShareSDK/Core",
+					"$(PROJECT_DIR)/ShareSDK/Extend/QQConnectSDK",
+					"$(PROJECT_DIR)/ShareSDK",
+					"$(PROJECT_DIR)/ShareSDK/UI",
+				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/NewsWork-张敏/PrefixHeader.pch";
 				INFOPLIST_FILE = "NewsWork-张敏/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ShareSDK/Extend/SinaWeiboSDK",
+					"$(PROJECT_DIR)/ShareSDK/Extend/WeChatSDK",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "via.NewsWork---";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -1147,11 +1454,25 @@
 		};
 		C7642B3D1D026BEA00C6DE7E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5102F3E9A183CDD636192547 /* Pods-NewsWork-张敏.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ShareSDK/Connection",
+					"$(PROJECT_DIR)/ShareSDK/Core",
+					"$(PROJECT_DIR)/ShareSDK/Extend/QQConnectSDK",
+					"$(PROJECT_DIR)/ShareSDK",
+					"$(PROJECT_DIR)/ShareSDK/UI",
+				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/NewsWork-张敏/PrefixHeader.pch";
 				INFOPLIST_FILE = "NewsWork-张敏/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ShareSDK/Extend/SinaWeiboSDK",
+					"$(PROJECT_DIR)/ShareSDK/Extend/WeChatSDK",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "via.NewsWork---";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -1159,6 +1480,7 @@
 		};
 		C7642B3F1D026BEA00C6DE7E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3986385C3AEB9F91F23F221 /* Pods-NewsWork-张敏Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "NewsWork-张敏Tests/Info.plist";
@@ -1171,6 +1493,7 @@
 		};
 		C7642B401D026BEA00C6DE7E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E938BBDE8F8D5069912FBE46 /* Pods-NewsWork-张敏Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "NewsWork-张敏Tests/Info.plist";
@@ -1183,6 +1506,7 @@
 		};
 		C7642B421D026BEA00C6DE7E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EB03D3C6559091700917EFF /* Pods-NewsWork-张敏UITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "NewsWork-张敏UITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -1195,6 +1519,7 @@
 		};
 		C7642B431D026BEA00C6DE7E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEAF57AA6AE976D6D640C870 /* Pods-NewsWork-张敏UITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "NewsWork-张敏UITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

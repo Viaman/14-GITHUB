@@ -9,6 +9,7 @@
 ///通知相关的地方
 #define GetNewsDataNotification @"获取新闻数据"
 #define GetBannerDataNotification @"获取轮播图数据"
+#define GetNotifyDataNotification @"获取通知公告数据"
 
 
 #ifndef PrefixHeader_pch
@@ -23,5 +24,7 @@
 #define POOT @"http://jxwm.gkmm.net:8989/news/"
 #define POST_getBanner [POOT stringByAppendingFormat:@"newsCategory/getBanner.do"]
 #define POST_getNewsByCategoryId [POOT stringByAppendingFormat:@"news/getNewsByCategoryId.do"]
+#define POST_postNotify [POOT stringBYAppendingFormat:@"announ/getAnnouncement.do"]
+
 
 #endif /* PrefixHeader_pch */
