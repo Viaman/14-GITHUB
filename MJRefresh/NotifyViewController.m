@@ -19,7 +19,7 @@
     [super viewDidLoad];
     
     [self.tableView registerClass:[NotifyTableViewCell class] forCellReuseIdentifier:@"Cell"];
-    self.tableView.rowHeight = 180;
+    self.tableView.rowHeight = 150;
     
     
    [Notify getNotifyData];

@@ -44,8 +44,8 @@
     //menuIndicatorColor->横线颜色
     //menuItemSelectedTitleColor->选中字体颜色
     //menuItemTitleColor->未选中字体颜色
-    conntainerVC.menuItemSelectedTitleColor= [UIColor redColor];
-    conntainerVC.menuIndicatorColor= [UIColor redColor];
+    conntainerVC.menuItemSelectedTitleColor= [UIColor colorWithRed:0.99 green:0.47 blue:0.21 alpha:1.00];
+    conntainerVC.menuIndicatorColor= [UIColor colorWithRed:0.99 green:0.47 blue:0.21 alpha:1.00];
     conntainerVC.menuItemTitleColor= [UIColor blackColor];
     [self.view addSubview:conntainerVC.view];
     
