@@ -6,25 +6,46 @@
 //  Copyright © 2016年 via.man. All rights reserved.
 //
 
-///通知相关的地方
-#define GetNewsDataNotification @"获取新闻数据"
-#define GetBannerDataNotification @"获取轮播图数据"
-#define GetNotifyDataNotification @"获取通知公告数据"
-
-
 #ifndef PrefixHeader_pch
 #define PrefixHeader_pch
+
 #import "MJRefresh.h"
 #import "UIKit+AFNetworking.h"
-#import "NewsTableViewCell.h"
 #import "AFNetworking.h"
 #import "SDCycleScrollView.h"
 #import "MJExtension.h"
+#import "MBProgressHUD.h"
+#import "YSLContainerViewController.h"
+//#import "shareSDK.h"
 
 #define POOT @"http://jxwm.gkmm.net:8989/news/"
+
+///通知相关的地方
+#define GetNewsCategoryNotification @"获取新闻分类"
+#define GetNewsDataNotification @"获取新闻数据"
+#define GetBannerDataNotification @"获取轮播图数据"
+#define GetPassDataNotification @"获取公益图片数据"
+#define GetNotifyDataNotification @"获取通知公告数据"
+
+
+//获取新闻分类
+#define getNewsCategory [POOT stringByAppendingString:@"newsCategory/getNewsCategory.do"]
+
+//Banner 获取轮播图数据
 #define POST_getBanner [POOT stringByAppendingFormat:@"newsCategory/getBanner.do"]
+
+//News 获取新闻列表数据
 #define POST_getNewsByCategoryId [POOT stringByAppendingFormat:@"news/getNewsByCategoryId.do"]
+
+//请求新闻的详情
+#define POST_getNewsDetailById [POOT stringByAppendingFormat:@"news/getNewsDetailById.do"]
+
+//获取公益广告数据
+#define POST_getPsas [POOT stringByAppendingFormat:@"pasa/getPsas.do"]
+//获取通知公告数据
 #define POST_postNotify [POOT stringBYAppendingFormat:@"announ/getAnnouncement.do"]
+//新闻详情
+#define SCREEN_BOUNDS [UIScreen mainScreen].bounds
 
 
 #endif /* PrefixHeader_pch */
